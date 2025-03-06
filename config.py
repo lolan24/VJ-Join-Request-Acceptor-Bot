@@ -1,8 +1,8 @@
 from os import environ
 
-API_ID = int(environ.get("API_ID", ""))
-API_HASH = environ.get("API_HASH", "")
-BOT_TOKEN = environ.get("BOT_TOKEN", "")
+API_ID = int(environ.get("API_ID", "13305226"))
+API_HASH = environ.get("API_HASH", "8cde2475d6b0cb1162b89ebbac71a95d")
+BOT_TOKEN = environ.get("BOT_TOKEN", "7983985478:AAGL27LoucgLz27JHWQ6ij0YsBCgflob8fQ")
 
 # Make Bot Admin In Log Channel With Full Rights
 LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002427686991"))
@@ -13,4 +13,4 @@ DB_URI = environ.get("DB_URI", "mongodb+srv://request:request@cluster0.apeuv.mon
 DB_NAME = environ.get("DB_NAME", "request")
 
 # If this is True Then Bot Accept New Join Request 
-NEW_REQ_MODE = bool(environ.get('NEW_REQ_MODE', True))
+NEW_REQ_MODE = bool(environ.get('NEW_REQ_MODE', False))
